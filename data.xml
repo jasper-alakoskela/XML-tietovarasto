@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <elokuva>
+        <nimi>mid90s</nimi>
+        <ohjaaja>Jonah Hill</ohjaaja>
+        <julkaisuvuosi>2018</julkaisuvuosi>
+        <genre>komedia/draama</genre>
+        <ikäraja>16</ikäraja>
+    </elokuva>
+
+    <elokuva>
+        <nimi>Boyz n the Hood</nimi>
+        <ohjaaja>John Singleton</ohjaaja>
+        <julkaisuvuosi>1991</julkaisuvuosi>
+        <genre>draama/rikos</genre>
+        <ikäraja>16</ikäraja>
+    </elokuva>
+
+    <elokuva>
+        <nimi>The Babadook</nimi>
+        <ohjaaja>Jennifer Kent</ohjaaja>
+        <julkaisuvuosi>2014</julkaisuvuosi>
+        <genre>Kauhu/Trilleri</genre>
+        <ikäraja>16</ikäraja>
+    </elokuva>
+
+    <elokuva>
+        <nimi>Scott Pilgrim vs. the World</nimi>
+        <ohjaaja>Edgar Wright</ohjaaja>
+        <julkaisuvuosi>2010</julkaisuvuosi>
+        <genre>Toiminta/Komedia</genre>
+        <ikäraja>11</ikäraja>
+    </elokuva>    
+</data>
