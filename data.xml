@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
 <data>
+
+    <otsikko>Elokuvakirjasto</otsikko>
+
     <elokuva>
         <nimi>mid90s</nimi>
         <ohjaaja>Jonah Hill</ohjaaja>
         <julkaisuvuosi>2018</julkaisuvuosi>
         <genre>komedia/draama</genre>
-        <ikäraja>16</ikäraja>
+        <ikäraja>K16</ikäraja>
     </elokuva>
 
     <elokuva>
@@ -13,7 +17,7 @@
         <ohjaaja>John Singleton</ohjaaja>
         <julkaisuvuosi>1991</julkaisuvuosi>
         <genre>draama/rikos</genre>
-        <ikäraja>16</ikäraja>
+        <ikäraja>K16</ikäraja>
     </elokuva>
 
     <elokuva>
@@ -21,7 +25,7 @@
         <ohjaaja>Jennifer Kent</ohjaaja>
         <julkaisuvuosi>2014</julkaisuvuosi>
         <genre>Kauhu/Trilleri</genre>
-        <ikäraja>16</ikäraja>
+        <ikäraja>K16</ikäraja>
     </elokuva>
 
     <elokuva>
@@ -29,6 +33,6 @@
         <ohjaaja>Edgar Wright</ohjaaja>
         <julkaisuvuosi>2010</julkaisuvuosi>
         <genre>Toiminta/Komedia</genre>
-        <ikäraja>11</ikäraja>
+        <ikäraja>K11</ikäraja>
     </elokuva>    
 </data>
