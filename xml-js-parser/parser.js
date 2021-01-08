@@ -17,10 +17,22 @@ function parseXMLData(data) {
     let i;
     let name = '';
     let htmlData = '';
-    for (i = 0; i < movies.lenght; i++) {
+    for (i = 0; i < movies.length; i++) {
         name = movies[i].getElementsByTagName('nimi')[0].childNodes[0].nodeValue;
-        htmlData += name + '<br>';
+        director = movies[i].getElementsByTagName('ohjaaja')[0].childNodes[0].nodeValue;
+        year = movies[i].getElementsByTagName('julkaisuvuosi')[0].childNodes[0].nodeValue;
+        genre = movies[i].getElementsByTagName('genre')[0].childNodes[0].nodeValue;
+        age = movies[i].getElementsByTagName('ikäraja')[0].childNodes[0].nodeValue;
+
+        htmlData += `<h2>${name}</h2>
+        <p>
+            ${director}<br>
+            ${year}<br>
+            ${genre}<br>
+            ${age}<br>
+        </p>`;
     }
 
     document.getElementById('movies').innerHTML = htmlData;
 }
+
